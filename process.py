@@ -12,3 +12,10 @@ def sales_reports(log_file):
 
 
 sales_reports(log_file)  #this is reassigning the variable name 
+
+
+def numbers_reports(log_file):
+    for line in log_file:
+        line = line.rstrip().split(' ')
+        
+        
